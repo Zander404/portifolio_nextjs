@@ -10,12 +10,12 @@ export default function Navbar() {
     <div
       id="Navbar"
       data-theme=''
-      className="bg-neutral flex w-screen justify-between mb-10 h-16 sm:px-10 px-2 py-2 z-50 fixed"
+      className="w-full flex flex-row justify-between mx-auto px-4 sm:px-20 py-2 fixed top-0 z-50 shadow bg-neutral bg-opacity-80"
     >
       <div className=" flex flex-row space-x-4 justify-center">
         <a
           id="menu"
-          className="btn btn-ghost bg-black bg-opacity-40 hover:bg-black hover:bg-opacity-60"
+          className="btn btn-sm sm:btn-md btn-ghost bg-black bg-opacity-40 hover:bg-black hover:bg-opacity-60"
         >
           <BiMenu color="white" size={32} />
         </a>

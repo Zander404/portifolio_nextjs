@@ -3,7 +3,7 @@
 export default function Footer() {
     
   return (
-    <div
+    <section
       id="Footer"
       className="bg-neutral flex w-screen justify-between h-16 sm:px-10 p-2 sticky z-50"
     >
@@ -11,6 +11,6 @@ export default function Footer() {
             <p>Ui</p>
         </div>
 
-    </div>
+    </section>
   );
 }
