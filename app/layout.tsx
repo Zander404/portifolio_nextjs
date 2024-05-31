@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Prompt } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
+import Navbar from "@/Components/Navbar/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const text = Prompt({ weight: ["400", "500"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html data-theme="retro" lang="en">
+      <ThemeProvider>
+       
+        <body className={text.className}>{children}</body>
+      </ThemeProvider>
     </html>
   );
 }

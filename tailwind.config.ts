@@ -15,6 +15,28 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui')
+  ],
+
+  daisyui: {
+    themes: [{
+      light: {
+        "primary": "#a991f7",
+        "secondary": "#f6d860",
+        "accent": "#81f",
+        "neutral": "#fff",
+        "base-100": "#9fff",
+        'text': '#ffff'
+      },
+      dark: {
+        "primary": "#a991f7",
+        "secondary": "#f6d860",
+        "accent": "#ef3",
+        "neutral": "#525252",
+        "base-100": "#0000",
+      }
+    }]
+  }
 };
 export default config;
