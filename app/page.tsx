@@ -1,5 +1,5 @@
 import About from "@/Components/About/About";
-import Experience from "@/Components/Expreiencie/Experiencie";
+import Experience from "@/Components/Experiencie/Experiencie";
 import Footer from "@/Components/Footer/Footer";
 import Freelance from "@/Components/Freelance/Freelance";
 import Navbar from "@/Components/Navbar/Navbar";
@@ -17,10 +17,10 @@ export default function Home() {
       <About />
       <Skill />
 
-      {/* <Freelance /> */}
-      {/* <Experience /> */}
+      <Experience />
+      <Freelance />
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

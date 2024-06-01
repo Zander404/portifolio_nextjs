@@ -2,7 +2,7 @@ import SkillCard from "./SkillCard";
 
 export default function Skill() {
   return (
-    <section className="flex flex-col bg-base-100 items-center justify-center sm:m-auto h-screen sm:pl-36 py-52 px-6 sm:py-28">
+    <section id="skill" className="flex flex-col bg-base-100 items-center justify-center sm:m-auto h-screen sm:pl-36 py-16 px-6 sm:py-28">
       <div className="container bg-neutral flex justify-center items-center text-center text-accent rounded-md">
         <div className=" flex flex-col w-full h-fit p-2">
           <h1 className="text-2xl">Habilidades</h1>

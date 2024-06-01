@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html data-theme="retro" lang="en">
+    <html data-theme="retro"  style={{scrollBehavior: 'smooth'}} className="bg-base-100" lang="en">
       <ThemeProvider>
        
         <body className={text.className}>{children}</body>
