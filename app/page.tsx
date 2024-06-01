@@ -1,11 +1,12 @@
-import About from "@/Components/About/About";
-import Experience from "@/Components/Experiencie/Experiencie";
-import Footer from "@/Components/Footer/Footer";
-import Freelance from "@/Components/Freelance/Freelance";
-import Navbar from "@/Components/Navbar/Navbar";
-import SocialMedia from "@/Components/RedeSociais/SocialMedia";
-import Skill from "@/Components/Skills/Skill";
-import { ThemeProvider } from "next-themes";
+
+import About from "@/components/About/About";
+import Experience from "@/components/Experiencie/Experiencie";
+import Footer from "@/components/Footer/Footer";
+import Freelance from "@/components/Freelance/Freelance";
+import Navbar from "@/components/Navbar/Navbar";
+import SocialMedia from "@/components/RedeSociais/SocialMedia";
+import Skill from "@/components/Skills/Skill";
+
 
 export default function Home() {
   return (

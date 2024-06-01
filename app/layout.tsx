@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Prompt } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import Navbar from "@/Components/Navbar/Navbar";
 
 const text = Prompt({ weight: ["400", "500"], subsets: ["latin"] });
 
