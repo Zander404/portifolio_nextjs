@@ -11,8 +11,9 @@ export default function ExperienceCard(props: PropsExperiencie) {
       <div id="title" className="flex flex-col items-center sm:flex-row sm:justify-between w-full space-y-4">
         <h1 className=" text-md sm:text-xl">{props.title}</h1>
         <div className="flex flex-row space-x-3">
-          <span className="sm:badge bg-neutral text-accent badge-sm p-3">{props.init_date}</span>
-          <span className="sm:badge bg-neutral text-accent badge-sm p-3">{props.end_date}</span>
+          <span className="badge bg-neutral text-accent badge-sm p-3">{props.init_date}</span>
+          <p>-</p>
+          <span className="badge bg-neutral text-accent badge-sm p-3">{props.end_date}</span>
         </div>
       </div>
 

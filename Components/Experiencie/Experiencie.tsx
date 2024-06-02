@@ -7,9 +7,9 @@ export default function Experience() {
         <div className="flex flex-col h-fit p-2">
           <h1 className="text-2xl">Experiência</h1>
           <div className="grid grid-row-3 p-2 space-y-2 bg-secondary rounded-md m-6">
-            <ExperienceCard title="Title" init_date={'dia/mes'} end_date={'dia/mes'} description={'Lorem ipsum dolor sit amet. Et nisi corporis ab facilis adipisci rem consequatur illo sit mollitia omnis eum impedit nisi et sint quod. Eum aliquid officia et sint veniam qui dolorem eveniet. Ad earum officia est sint esse quo laborum voluptatum'} />
-            <ExperienceCard title="Title" init_date={'dia/mes'} end_date={'dia/mes'} description={'Lorem ipsum dolor sit amet. Et nisi corporis ab facilis adipisci rem consequatur illo sit mollitia omnis eum impedit nisi et sint quod. Eum aliquid officia et sint veniam qui dolorem eveniet. Ad earum officia est sint esse quo laborum voluptatum'} />
-            <ExperienceCard title="Title" init_date={'dia/mes'} end_date={'dia/mes'} description={'Lorem ipsum dolor sit amet. Et nisi corporis ab facilis adipisci rem consequatur illo sit mollitia omnis eum impedit nisi et sint quod. Eum aliquid officia et sint veniam qui dolorem eveniet. Ad earum officia est sint esse quo laborum voluptatum'} />
+            <ExperienceCard title="CODE TOWER - PROGRAMADOR" init_date={'10/2021'} end_date={'11/2022'} description={'Programador nas tecnológias Python, JavaSctipt, Django, NextJS, Docker, Nginx e Git/Github. Reponsável pelo treinamento dos trainners da empresa junior e desenvolvimento de aplicações web.'} />
+            <ExperienceCard title="CODE TOWER - VICE PRESIDENTE" init_date={'11/2022'} end_date={'11/2023'} description={'Responsável por Coordernação da execução dos projetos, Gestão da Equipe em cada área de EJ, Controle Financeiro em relação a treinamentos e eventos e Representante Institucional da EJ em eventos.'} />
+            <ExperienceCard title="PIBIC" init_date={'08/2023'} end_date={'08/2024'} description={'Co-Colaborador do projeto de pequisa "Quantificação de Viés Racial sobre as técnicas de Aprendizado de Máquina", o objetivo é analisar como o fator racial pode ser importante para o processo de classificação em documentos.'} />
           </div>
         </div>
       </div>

@@ -10,34 +10,35 @@ export default function Skill() {
             <SkillCard
               skill_title="Front-End"
               skills_tech={[
-                "front1",
-                "front2",
-                "front3",
-                "front4",
-                "front5",
-                "front6",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React JS",
+                "Next JS",
               ]}
             />
             <SkillCard
               skill_title="Back-End"
               skills_tech={[
-                "back1",
-                "back2",
-                "back3",
-                "back4",
-                "back5",
-                "back6",
+                "Python",
+                "Django",
+                "Django DRF",
+                "Fast Api",
+                "Postgres",
+                "MongoDB",
+                "ML",
+                "JavaScript",
               ]}
             />
             <SkillCard
               skill_title="Dev-Ops"
               skills_tech={[
-                "devops1",
-                "devops2",
-                "devops3",
-                "devops4",
-                "devops5",
-                "devops6",
+                "Linux",
+                "Git",
+                "Github",
+                "Docker",
+                "CI/CD",
+                "Nginx",
               ]}
             />
           </div>
