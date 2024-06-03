@@ -1,11 +1,11 @@
 
-import About from "@/components/About/About";
-import Experience from "@/components/Experiencie/Experiencie";
-import Footer from "@/components/Footer/Footer";
-import Freelance from "@/components/Freelance/Freelance";
-import Navbar from "@/components/Navbar/Navbar";
-import SocialMedia from "@/components/RedeSociais/SocialMedia";
-import Skill from "@/components/Skills/Skill";
+import About from "@/app/components/About/About";
+import Experience from "@/app/components/Experiencie/Experiencie";
+import Footer from "@/app/components/Footer/Footer";
+import Freelance from "@/app/components/Freelance/Freelance";
+import Navbar from "@/app/components/Navbar/Navbar";
+import SocialMedia from "@/app/components/RedeSociais/SocialMedia";
+import Skill from "@/app/components/Skills/Skill";
 
 
 export default function Home() {
